@@ -1,0 +1,16 @@
+# Dependencias de Node.js
+node_modules/
+
+# Variables de entorno (¡NO SUBIR CONTRASEÑAS!)
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
