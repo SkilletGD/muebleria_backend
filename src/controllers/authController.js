@@ -19,7 +19,7 @@ const register = async (req, res) => {
 
         // Insertar usuario
         const [result] = await pool.query(
-            'INSERT INTO usuarios (nombre, email, password_hash, telefono, rol) VALUES (?, ?, ?, ?, "cliente")',
+            "INSERT INTO usuarios (nombre, email, password_hash, telefono, rol) VALUES (?, ?, ?, ?, 'cliente')",
             [nombre, email, password_hash, telefono]
         );
 
